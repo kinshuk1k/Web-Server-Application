@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  flask-web-server:
+    image: kinshuk1k/flask-web-server:latest
+    container_name: flask-web-server  
+    expose:
+      - "2000"
